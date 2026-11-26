@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f4c81">
+  <title>Absensi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <strong id="judul">Absensi</strong>
+    <button id="keluar" class="tautan" hidden>Keluar</button>
+  </header>
+  <main id="isi"></main>
+  <nav id="menu" hidden></nav>
+  <div id="pesan" role="status" hidden></div>
+  <div id="tunggu" hidden><span></span><p id="teksTunggu">Memuat…</p></div>
+  <dialog id="lihatFoto"><img alt="Foto absen"><button class="tombol">Tutup</button></dialog>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
